@@ -25,7 +25,7 @@ const ProductPage = () => {
 
   useEffect(() => {
     getProduct();
-  }, []);
+  }, [getProduct]);
 
   if (!product?.title) return <h1>Loading Product ...</h1>;
 
