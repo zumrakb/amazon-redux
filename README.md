@@ -1,7 +1,5 @@
 # 🛍️Amazon Clone🛍️
 
-🔗Github repository: https://github.com/zumrakb/amazon-redux 
-
 🔗Deployment on netlify: https://668b106e20d0641445409c73--gilded-puppy-fdd913.netlify.app/ 
 
 Bazı önemli özellikler:
