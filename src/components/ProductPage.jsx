@@ -12,20 +12,16 @@ const ProductPage = () => {
   const [quantity, setQuantity] = useState("1");
   const dispatch = useDispatch();
 
-  const getProduct = () => {
-    callAPI(`data/products.json`).then((productResults) => {
-      setProduct(productResults[id]);
-    });
-  };
-
   const addQuantityToProduct = () => {
     setProduct((product.quantity = quantity));
     return product;
   };
 
   useEffect(() => {
-    getProduct();
-  }, [getProduct]);
+    callAPI(`data/products.json`).then((productResults) => {
+      setProduct(productResults[id]);
+    });
+  }, [id]);
 
   if (!product?.title) return <h1>Loading Product ...</h1>;
 
