@@ -25,14 +25,10 @@ const Search = () => {
     setCategory("All");
   };
 
-  const getSuggestions = () => {
+  useEffect(() => {
     callAPI(`data/suggestions.json`).then((suggestionResults) => {
       setSuggestions(suggestionResults);
     });
-  };
-
-  useEffect(() => {
-    getSuggestions();
   }, []);
 
   return (
