@@ -1,4 +1,4 @@
-🛍️Amazon Clone🛍️
+# 🛍️Amazon Clone🛍️
 
 🔗Github repository: https://github.com/zumrakb/amazon-redux 
 
@@ -14,4 +14,5 @@ Bazı önemli özellikler:
 
 🔢 Miktar Seçimi: Ürünlerden istenen miktarda sepete ekleme.
 
-Bu proje, özellikle redux hakkındaki bilgimi artırmak için harika bir fırsattı. En sevdiğim kısım, react props drilling'in yerine redux'ta global state kullanmanın kolaylığı oldu.
+
+![Ekran görüntüsü 2024-07-08 011448](https://github.com/zumrakb/amazon-redux/assets/139718764/4935e014-4b94-4901-9900-459a21a01773)
